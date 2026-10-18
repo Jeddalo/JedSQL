@@ -15,6 +15,8 @@ GROUP BY No_show;
 ````
 **Answer:**
 
+<img width="303" height="101" alt="Image" src="https://github.com/user-attachments/assets/d7fe5d2d-bbea-4a80-8437-fad6a4b20c06" />
+
 ***
 
 ### 2: Does the day of the week matter
@@ -30,6 +32,8 @@ GROUP BY DATENAME(WEEKDAY,AppointmentDay)
 ORDER BY rate_of_no_shows DESC;
 ````
 **Answer:**
+
+<img width="423" height="172" alt="Image" src="https://github.com/user-attachments/assets/23da52c3-1872-4521-bfb0-2a65787e50b7" />
 
 ***
 
@@ -56,6 +60,8 @@ GROUP BY
 ORDER BY no_show_rate DESC;
 ````
 **Answer:**
+
+
 
 ***
 
@@ -85,6 +91,8 @@ SELECT
 ````
 **Answer:**
 
+<img width="289" height="121" alt="Image" src="https://github.com/user-attachments/assets/238abdfa-505c-48d5-a059-75c754f68b8a" />
+
 ***
 
 ### 5: Does SMS reminders help
@@ -99,6 +107,12 @@ SELECT
 	GROUP BY CASE WHEN SMS_received = 1 THEN 'Received SMS' ELSE 'No SMS'
 	END;
 ````
+**Answer:**
+
+<img width="324" height="65" alt="Image" src="https://github.com/user-attachments/assets/2b543ee8-f704-4c52-971f-42ed55066b80" />
+
+***
+
 ### 6: Which neighbourhoods have the highest risk?
 
 ````sql
