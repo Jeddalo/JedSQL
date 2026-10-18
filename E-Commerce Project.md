@@ -84,6 +84,9 @@ WITH source_funnel AS (
 	ORDER BY purchases;
 ````
 **Answer:**
+
+<img width="675" height="92" alt="Image" src="https://github.com/user-attachments/assets/119511dc-bae3-451f-87dc-a2e154704ce7" />
+
 ***
 
 ### 4: Time to conversion analysis
@@ -109,6 +112,9 @@ WITH user_journey AS (
 	FROM user_journey;
 ````
 **Answer:**
+
+<img width="600" height="54" alt="Image" src="https://github.com/user-attachments/assets/634f223e-dd26-4359-8b21-5fc7902c56ea" />
+
 ***
 
 ### 5: revenue funnel analysis
@@ -134,4 +140,7 @@ WITH funnel_revenue AS (
 	FROM funnel_revenue;
 ````
 **Answer:**
+
+<img width="645" height="42" alt="Image" src="https://github.com/user-attachments/assets/1fb3f266-f20b-4a85-a17a-d425d0d13bdb" />
+
 ***
