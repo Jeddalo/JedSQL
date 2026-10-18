@@ -17,6 +17,9 @@ WITH funnel_stages AS (
 )
 ````
 **Answer:**
+
+<img width="522" height="79" alt="Image" src="https://github.com/user-attachments/assets/5933effa-2366-4cd8-9873-bda6a6adc6bd" />
+
 ***
 
 ### 2: Conversion rates through the funnel
@@ -51,6 +54,9 @@ WITH funnel_stages AS (
 	FROM funnel_stages;
 ````
 **Answer:**
+
+<img width="1093" height="77" alt="Image" src="https://github.com/user-attachments/assets/6b64630f-b5ee-438f-a4dd-1b1a4de743c8" />
+
 ***
 
 ### 3: Funnel by Source
