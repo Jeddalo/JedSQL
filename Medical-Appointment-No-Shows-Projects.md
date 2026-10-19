@@ -61,7 +61,7 @@ ORDER BY no_show_rate DESC;
 ````
 **Answer:**
 
-
+<img width="346" height="106" alt="Image" src="https://github.com/user-attachments/assets/3255fc99-d235-45f1-ab8e-ff9d0f8c4ef0" />
 
 ***
 
@@ -128,6 +128,8 @@ ORDER BY no_show_rate DESC;
 ````
 **Answer:**
 
+<img width="428" height="311" alt="Image" src="https://github.com/user-attachments/assets/46b25717-760d-4b0f-9e21-1736cebc847f" />
+
 ***
 
 ### 7: Patient-level risk scoring
@@ -150,3 +152,5 @@ FROM medicalappointment
 ORDER BY PatientId, AppointmentDay;
 ````
 **Answer:**
+
+<img width="537" height="213" alt="Image" src="https://github.com/user-attachments/assets/63801e44-8bfc-4369-a791-85f0fd62afc3" />
