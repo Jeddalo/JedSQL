@@ -1,4 +1,15 @@
-# E-Commerce Project
+# E-Commerce Sales Funnel Analysis
+
+### 📌 Business Tasks
+E-commerce business wants to evaluate website and data analytics team has been tasked to evaluate business website performance and provide actionable business recommendations.
+
+### Business Deliverables
+The key areas covered for analysis include:
+- **Sales Funnel Stages:** Defining and counting user progression through five key stages: *Page View*, *Add to Cart*, *Checkout Start*, *Payment Info*, and *Purchase*
+- **Conversion Rate Optimization:** Calculating conversion rates between funnel stages to identify bottlenecks.
+- **Marketing Channel Effectiveness:** Comparing traffic sources (*Organic*, *Paid Ads*, *Email*, *Social Media*) to determine which channels drive the most valuable customer behavior.
+- **Customer Journey Timing:** Analyzing the average time taken for users to move through different stages of the funnel.
+- **Revenue Metrics:** Evaluating financial KPIs such as *Average Order Value (AOV)* and comparing them against *Customer Acquisition Cost (CAC)*
 
 ## 📌 Data Exploration
 
@@ -117,7 +128,7 @@ WITH user_journey AS (
 
 ***
 
-### 5: revenue funnel analysis
+### 5: Revenue funnel analysis
 ````sql
 WITH funnel_revenue AS (
 	SELECT
@@ -144,3 +155,39 @@ WITH funnel_revenue AS (
 <img width="645" height="42" alt="Image" src="https://github.com/user-attachments/assets/1fb3f266-f20b-4a85-a17a-d425d0d13bdb" />
 
 ***
+
+## 📌Insights and Business Recommendation
+
+1. **Funnel Source Conversion:** Analysis provided a detailed breakdown of conversion rates across sales funnel. The calculated results are as follows:
+```
+   		- ** View to Cart:** 30%
+		- ** Cart to Checkout:** 71%
+		- ** Checkout to Payment:** 81%
+		- ** Payment to Checkout:** 92%
+```
+Following this analysis, the folloeing is recommended:
+- **Optimize User Experience** The low **view-to-cart rate** suggests that while traffic exists, Users may not be finding products efficiently, I recommend an investigation into website navigation and product display.
+- Validate Technical Performance: The high **payment-to-purchase conversion (92%)** indicates that the technical infrastructure for final transactions is functioning without significant friction or bottleneck.
+
+2. **Marketing Channel Effectiveness:** Analysis provided shows how the different traffic sources - *Organic*, *Paid Ads, *Email*, and *Social Media* perform in driving conversions. While **Social Media** drives a high volume of page views, it shows significantly lower conversion rates compared to other channels. **Email marketing**,however, demonstrates a mush higher efficiency, with notable conversion rate of 63% from view to cart.
+
+Following this analysis, the following is recommended:
+- **Address Vanity Metrics:** High traffic from Social Media can be misleading if it does not translate into actual purchase.
+- **Reallocate Budget:** The business should consider reducing investment in underperforming Social Media channels.
+- **Double Down on High- Performing Channels:** Resources should be shifted toward Email marketing, which proves to be more effective at turning visitors.
+
+3. **Customer Journey Timing:** Analysis provided the measures of the time spend transitioning between specific stages of the sales funnel. The findings for users who completed a purchase are as follows:
+   
+```
+View to Cart: Average of 11 minutes.
+Cart to Purchase: Average of 13 minutes.
+Total Journey: Average of 24 minutes.
+```
+The durations appear realistic and do not show extreme values that might suggest bot activity.
+
+Following this analysis, the following is recommended:
+
+**Process Efficiency:** The business should consider investigating whether these average times align with their internal expectations for the user experience.
+
+**Business Inquiry:** Use this data to opena asialogue with stakeholders regarding whether the *24-minute average journey* can be optimized to make the path to purchase faster and more efficient.
+
