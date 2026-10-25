@@ -1,4 +1,7 @@
-# 👩🏻‍⚕️ Medical-Appointment-No-Shows
+# 👩🏻‍⚕️ Medical-Appointment-No-Show Analysis
+
+### 📌 Business Tasks
+Using a dataset of over 100,000 medical appointment to analyze factors that influence whether patients fail to show up for their scheduled visits.
 
 ## 📌 Data Exploration
 
